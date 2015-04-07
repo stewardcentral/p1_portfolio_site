@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My Portfolio</title>
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <script type="text/javascript" src="js/jquery-1-11-2.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="round-button" style="margin-top: 22px;">WS</div>
+                </div>
+                <div class="col-md-6 text-right text-uppercase">
+                    <h1 class="title-super text-thin">Wayne Steward</h1>
+                    <h4>Front-end Ninja</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <img class="img-responsive" src="images/code.jpg" alt="Main Image">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-muted">Featured Work</h2>
+                </div>
+            </div>
+            <div class="row text-center title-project">
+                <div class="col-md-4">
+                    <img class="img-responsive" src="images/proj1.jpg" data-toggle="modal" data-target="#project1" alt="Project 1 Image">
+                    <h3 class="text-uppercase">Project 1</h3>
+                    <p><a href="https://github.com">link to project</a></p>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-responsive" src="images/proj2.jpg" data-toggle="modal" data-target="#project2" alt="Project 2 Image">
+                    <h3 class="text-uppercase">Project 2</h3>
+                    <p><a href="https://github.com">link to project</a></p>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-responsive" src="images/proj3.jpg" data-toggle="modal" data-target="#project3" alt="Project 3 Image">
+                    <h3 class="text-uppercase">Project 3</h3>
+                    <p><a href="https://github.com">ink to project</a></p>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 1-->
+        <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">Project 1</h4>
+              </div>
+              <div class="modal-body">
+                <img class="img-responsive" src="images/proj1.jpg">
+                This was my first project in this class. I learned a lot about HTML and CSS.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal 2-->
+        <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">Project 2</h4>
+              </div>
+              <div class="modal-body">
+                <img class="img-responsive" src="images/proj2.jpg">
+                This was my second project in this class. I learned a lot more about HTML and CSS.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal 3-->
+        <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">Project 3</h4>
+              </div>
+              <div class="modal-body">
+                <img class="img-responsive" src="images/proj3.jpg">
+                This was my third project in this class. I continued to learn even more about HTML and CSS.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </body>
+</html>
